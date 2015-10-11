@@ -1,0 +1,20 @@
+{
+  "name": "dynsys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dynserver.js",
+  "scripts": {
+    "start": "node dynserver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "dynserver.js",
+  "repository": {
+    "type": "git",
+    "url": "dynsys"
+  },
+  "author": "lonce",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^0.8.0"
+  }
+}
