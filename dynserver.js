@@ -17,6 +17,7 @@ server.listen(server_port, server_ip_address, function () {
 });
 
 //****************************************************************************
+
 app.use(express.static(__dirname + "/www"));
 
 wss.on('connection', function (ws) {
